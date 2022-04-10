@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    margin: 0;
+    background: #072e4c;
+    font-family: Arial;
+    color: #000;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: space-around;   
+}
+.age-calculator{
+    background: linear-gradient(to bottom, #007193 50%, #06024e);
+    border-radius: 30px;
+    color: #fff;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    padding: 30px;
+}
+.age-calculator h1{
+    font-size: 36px;
+    margin: 0 0 20;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.age-calculator input{
+    border-radius: 10px;
+    border: 0;
+    width: 60%;
+    display: block;
+    margin: 0 auto 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+.age-calculator button{
+    display: block;
+    border-radius: 10px;
+    border: 0;
+    width: 60%;
+    margin: 0 auto 20px;
+    font-size: 16px;
+    padding: 13px;
+    background: #00a1ed;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+}
+#calculate_age{
+    font-size: 24px;
+}
